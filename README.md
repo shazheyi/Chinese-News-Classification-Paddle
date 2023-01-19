@@ -1,7 +1,7 @@
 # Chinese-News-Classification-Paddle
-Baidu Paddle competition: Chinese News Text Title Classification score: 89.94964
-
 百度飞浆比赛：中文新闻文本标题分类 分数：89.94964
+
+Baidu Paddle competition: Chinese News Text Title Classification score: 89.94964
 
 ## 1.1 赛题简介：
 
