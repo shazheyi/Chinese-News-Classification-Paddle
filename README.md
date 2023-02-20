@@ -1,7 +1,7 @@
 # Chinese-News-Classification-Paddle
-百度飞桨比赛：中文新闻文本标题分类 分数：89.94964
+百度飞桨比赛：中文新闻文本标题分类 分数：0.9+
 
-Baidu Paddle competition: Chinese News Text Title Classification score: 89.94964
+Baidu Paddle competition: Chinese News Text Title Classification score: 0.9+
 
 ## 1.1 赛题简介：
 
@@ -15,7 +15,7 @@ THUCNews是根据新浪新闻RSS订阅频道2005~2011年间的历史数据筛选
 
 ## 1.3 模型思路：
 
-赛题为一道较常规的短文本多分类任务，本项目主要基于**PaddleNLP**通过**bert-wwm-ext-chinese**预训练模型在提供的训练数据上进行微调完成新闻14分类模型的训练与优化，最后利用训练好的模型对测试数据进行预测并生成提交结果文件，接着主要通过**伪标签**对效果进行进一步提升。
+赛题为一道较常规的短文本多分类任务，本项目主要基于**PaddleNLP**通过**bert-wwm-ext-chinese**预训练模型在提供的训练数据上进行微调完成新闻14分类模型的训练与优化，之后更换模型为roberta-wwm-ext-large进一步提升，最后利用训练好的模型对测试数据进行预测并生成提交结果文件，接着主要通过**伪标签**对效果进行进一步提升。
 
 Bert-fine-tune文件
 
